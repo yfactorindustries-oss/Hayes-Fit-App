@@ -56,12 +56,12 @@
             {
               "title": "Strength",
               "exercises": [
-                { "id": "d1_ohp", "label": "Seated DB Overhead Press (neutral grip)", "sets": 4, "reps": "6-8", "notes": "Main lift, RPE 7-8. Rest 2:00", "restSeconds": 120 },
-                { "id": "d1_flat_press", "label": "Flat DB Press (neutral grip)", "sets": 3, "reps": "8-10", "notes": "Control eccentric. Rest 1:30", "restSeconds": 90 },
-                { "id": "d1_lat_raise", "label": "Lateral Raise", "sets": 3, "reps": "12-15", "notes": "Slow, no momentum. Rest 1:00", "restSeconds": 60 },
-                { "id": "d1_cable_front_raise", "label": "Cable Front Raise (rope)", "sets": 2, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60 },
-                { "id": "d1_tri_pushdown", "label": "Triceps Pushdown (rope)", "sets": 3, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60 },
-                { "id": "d1_oh_tri_ext", "label": "Overhead Triceps Extension (cable)", "sets": 2, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60 }
+                { "id": "d1_ohp", "label": "Seated DB Overhead Press (neutral grip)", "sets": 4, "reps": "6-8", "notes": "Main lift, RPE 7-8. Rest 2:00", "restSeconds": 120, "equipmentChoice": true },
+                { "id": "d1_flat_press", "label": "Flat DB Press (neutral grip)", "sets": 3, "reps": "8-10", "notes": "Control eccentric. Rest 1:30", "restSeconds": 90, "equipmentChoice": true },
+                { "id": "d1_lat_raise", "label": "Lateral Raise", "sets": 3, "reps": "12-15", "notes": "Slow, no momentum. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d1_cable_front_raise", "label": "Cable Front Raise (rope)", "sets": 2, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d1_tri_pushdown", "label": "Triceps Pushdown (rope)", "sets": 3, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d1_oh_tri_ext", "label": "Overhead Triceps Extension (cable)", "sets": 2, "reps": "12-15", "notes": "Rest 1:00", "restSeconds": 60, "equipmentChoice": true }
               ]
             },
             {
@@ -89,12 +89,12 @@
             {
               "title": "Strength",
               "exercises": [
-                { "id": "d2_cs_row", "label": "Chest-Supported Row (neutral grip)", "sets": 4, "reps": "8-10", "notes": "Main lift, RPE 7-8. Rest 1:30", "restSeconds": 90 },
-                { "id": "d2_lat_pulldown", "label": "Lat Pulldown (neutral grip)", "sets": 3, "reps": "10-12", "notes": "Full stretch at top. Rest 1:30", "restSeconds": 90 },
+                { "id": "d2_cs_row", "label": "Chest-Supported Row (neutral grip)", "sets": 4, "reps": "8-10", "notes": "Main lift, RPE 7-8. Rest 1:30", "restSeconds": 90, "equipmentChoice": true },
+                { "id": "d2_lat_pulldown", "label": "Lat Pulldown (neutral grip)", "sets": 3, "reps": "10-12", "notes": "Full stretch at top. Rest 1:30", "restSeconds": 90, "equipmentChoice": true },
                 { "id": "d2_dead_hang", "label": "Dead Hang", "sets": 2, "reps": "30-45 sec", "notes": "Mobility + grip. Rest 1:00", "restSeconds": 60 },
-                { "id": "d2_face_pull", "label": "Face Pull", "sets": 3, "reps": "15", "notes": "External rotation at end. Rest 1:00", "restSeconds": 60 },
-                { "id": "d2_hammer_curl", "label": "Hammer Curl", "sets": 3, "reps": "10-12", "notes": "Slow eccentric (3 sec). Rest 1:00", "restSeconds": 60 },
-                { "id": "d2_cable_ext_rot", "label": "Cable External Rotation", "sets": 2, "reps": "15/side", "notes": "Light, shoulder health. Rest 0:45", "restSeconds": 45 }
+                { "id": "d2_face_pull", "label": "Face Pull", "sets": 3, "reps": "15", "notes": "External rotation at end. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d2_hammer_curl", "label": "Hammer Curl", "sets": 3, "reps": "10-12", "notes": "Slow eccentric (3 sec). Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d2_cable_ext_rot", "label": "Cable External Rotation", "sets": 2, "reps": "15/side", "notes": "Light, shoulder health. Rest 0:45", "restSeconds": 45, "equipmentChoice": true }
               ]
             },
             {
@@ -122,18 +122,18 @@
             {
               "title": "Strength",
               "exercises": [
-                { "id": "d3_trap_dl", "label": "Trap Bar Deadlift", "sets": 4, "reps": "5", "notes": "RPE 7, quality reps. Rest 2:00", "restSeconds": 120 },
-                { "id": "d3_belt_squat", "label": "Belt Squat", "sets": 3, "reps": "10", "notes": "Moderate load. Rest 1:30", "restSeconds": 90 },
-                { "id": "d3_sl_rdl", "label": "Single-Leg RDL", "sets": 2, "reps": "8/side", "notes": "DB, neutral grip. Rest 1:00", "restSeconds": 60 },
-                { "id": "d3_calf_raise", "label": "Standing Calf Raise (DB on step)", "sets": 4, "reps": "12-15", "notes": "Full ROM, pause at bottom. Rest 1:00", "restSeconds": 60 }
+                { "id": "d3_trap_dl", "label": "Trap Bar Deadlift", "sets": 4, "reps": "5", "notes": "RPE 7, quality reps. Rest 2:00", "restSeconds": 120, "equipmentChoice": true },
+                { "id": "d3_belt_squat", "label": "Belt Squat", "sets": 3, "reps": "10", "notes": "Moderate load. Rest 1:30", "restSeconds": 90, "equipmentChoice": true },
+                { "id": "d3_sl_rdl", "label": "Single-Leg RDL", "sets": 2, "reps": "8/side", "notes": "DB, neutral grip. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d3_calf_raise", "label": "Standing Calf Raise (DB on step)", "sets": 4, "reps": "12-15", "notes": "Full ROM, pause at bottom. Rest 1:00", "restSeconds": 60, "equipmentChoice": true }
               ]
             },
             {
               "title": "Core",
               "exercises": [
                 { "id": "d3_dead_bug", "label": "Dead Bug", "sets": 3, "reps": "8/side", "notes": "Slow, exhale on extension. Rest 0:30", "restSeconds": 30 },
-                { "id": "d3_pallof", "label": "Pallof Press", "sets": 3, "reps": "10/side", "notes": "Anti-rotation. Rest 0:45", "restSeconds": 45 },
-                { "id": "d3_farmer_walk", "label": "Farmer's Walk", "sets": 2, "reps": "40m", "notes": "Heavy as tolerable. Rest 1:00", "restSeconds": 60 }
+                { "id": "d3_pallof", "label": "Pallof Press", "sets": 3, "reps": "10/side", "notes": "Anti-rotation. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
+                { "id": "d3_farmer_walk", "label": "Farmer's Walk", "sets": 2, "reps": "40m", "notes": "Heavy as tolerable. Rest 1:00", "restSeconds": 60, "equipmentChoice": true }
               ]
             },
             {
@@ -161,17 +161,17 @@
             {
               "title": "Shoulders",
               "exercises": [
-                { "id": "d4_lat_raise", "label": "Lateral Raise", "sets": 4, "reps": "12-15", "notes": "Priority movement. Rest 1:00", "restSeconds": 60 },
-                { "id": "d4_cable_lat_raise", "label": "Cable Lateral Raise", "sets": 2, "reps": "15/side", "notes": "Constant tension. Rest 0:45", "restSeconds": 45 },
-                { "id": "d4_front_raise", "label": "DB Front Raise", "sets": 2, "reps": "12", "notes": "Alternate arms. Rest 1:00", "restSeconds": 60 }
+                { "id": "d4_lat_raise", "label": "Lateral Raise", "sets": 4, "reps": "12-15", "notes": "Priority movement. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d4_cable_lat_raise", "label": "Cable Lateral Raise", "sets": 2, "reps": "15/side", "notes": "Constant tension. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
+                { "id": "d4_front_raise", "label": "DB Front Raise", "sets": 2, "reps": "12", "notes": "Alternate arms. Rest 1:00", "restSeconds": 60, "equipmentChoice": true }
               ]
             },
             {
               "title": "Triceps",
               "exercises": [
-                { "id": "d4_floor_press", "label": "Close-Grip Floor Press (neutral)", "sets": 3, "reps": "10-12", "notes": "Triceps focus. Rest 1:30", "restSeconds": 90 },
-                { "id": "d4_tri_pushdown", "label": "Triceps Pushdown", "sets": 3, "reps": "15", "notes": "Higher reps, pump. Rest 0:45", "restSeconds": 45 },
-                { "id": "d4_oh_tri_ext", "label": "Overhead Triceps Extension", "sets": 3, "reps": "12-15", "notes": "Rest 0:45", "restSeconds": 45 },
+                { "id": "d4_floor_press", "label": "Close-Grip Floor Press (neutral)", "sets": 3, "reps": "10-12", "notes": "Triceps focus. Rest 1:30", "restSeconds": 90, "equipmentChoice": true },
+                { "id": "d4_tri_pushdown", "label": "Triceps Pushdown", "sets": 3, "reps": "15", "notes": "Higher reps, pump. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
+                { "id": "d4_oh_tri_ext", "label": "Overhead Triceps Extension", "sets": 3, "reps": "12-15", "notes": "Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
                 { "id": "d4_diamond_pushup", "label": "Diamond Push-Up or Dips", "sets": 2, "reps": "AMRAP", "notes": "Skip if shoulder pain. Rest 1:00", "restSeconds": 60 }
               ]
             },
@@ -199,17 +199,17 @@
             {
               "title": "Back",
               "exercises": [
-                { "id": "d5_cable_row", "label": "Cable Row (close neutral grip)", "sets": 3, "reps": "12-15", "notes": "Squeeze at contraction. Rest 1:00", "restSeconds": 60 },
-                { "id": "d5_sa_pulldown", "label": "Straight-Arm Pulldown", "sets": 3, "reps": "12-15", "notes": "Lats, stretch at top. Rest 1:00", "restSeconds": 60 },
+                { "id": "d5_cable_row", "label": "Cable Row (close neutral grip)", "sets": 3, "reps": "12-15", "notes": "Squeeze at contraction. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d5_sa_pulldown", "label": "Straight-Arm Pulldown", "sets": 3, "reps": "12-15", "notes": "Lats, stretch at top. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
                 { "id": "d5_dead_hang", "label": "Dead Hang", "sets": 2, "reps": "30-45 sec", "notes": "Rest 0:45", "restSeconds": 45 }
               ]
             },
             {
               "title": "Biceps + Forearms",
               "exercises": [
-                { "id": "d5_hammer_curl", "label": "Hammer Curl", "sets": 3, "reps": "12-15", "notes": "Pump work. Rest 0:45", "restSeconds": 45 },
-                { "id": "d5_incline_curl", "label": "Incline DB Curl (neutral/hammer grip)", "sets": 3, "reps": "10-12", "notes": "Stretch at bottom. Rest 0:45", "restSeconds": 45 },
-                { "id": "d5_reverse_curl", "label": "Reverse Curl or Wrist Curl", "sets": 2, "reps": "15", "notes": "Forearm/grip. Rest 0:45", "restSeconds": 45 }
+                { "id": "d5_hammer_curl", "label": "Hammer Curl", "sets": 3, "reps": "12-15", "notes": "Pump work. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
+                { "id": "d5_incline_curl", "label": "Incline DB Curl (neutral/hammer grip)", "sets": 3, "reps": "10-12", "notes": "Stretch at bottom. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
+                { "id": "d5_reverse_curl", "label": "Reverse Curl or Wrist Curl", "sets": 2, "reps": "15", "notes": "Forearm/grip. Rest 0:45", "restSeconds": 45, "equipmentChoice": true }
               ]
             },
             {
