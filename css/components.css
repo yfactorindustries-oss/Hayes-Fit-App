@@ -1,6 +1,6 @@
 /**
- * Component Styles - Tendon Dashboard v2.0
- * Reusable UI components
+ * Component Styles - Hayes Fit
+ * Reusable UI components - bright, clean theme
  */
 
 /* ============================================
@@ -11,7 +11,7 @@
   background: var(--color-bg-secondary);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-sm);
   padding: var(--space-lg);
   margin-bottom: var(--space-lg);
   transition: all var(--transition-base);
@@ -19,8 +19,7 @@
 }
 
 .card:hover {
-  border-color: var(--border-medium);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-md);
 }
 
 .card h2 {
@@ -66,7 +65,7 @@ button {
   padding: var(--space-sm) var(--space-lg);
   border-radius: var(--radius-full);
   border: 1px solid var(--border-medium);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
   cursor: pointer;
   transition: all var(--transition-base);
@@ -75,7 +74,7 @@ button {
 }
 
 button:hover {
-  background: var(--color-surface-raised);
+  background: var(--color-bg-tertiary);
   border-color: var(--color-accent-primary);
   color: var(--color-text-primary);
   transform: translateY(-1px);
@@ -90,25 +89,6 @@ button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
   transform: none;
-}
-
-/* Ripple effect */
-button::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
-
-button:active::after {
-  width: 300px;
-  height: 300px;
 }
 
 /* Primary button variant */
@@ -136,7 +116,7 @@ textarea {
   padding: var(--space-sm);
   border-radius: var(--radius-md);
   border: 1px solid var(--border-medium);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   color: var(--color-text-primary);
   transition: all var(--transition-base);
 }
@@ -146,8 +126,7 @@ input[type="number"]:focus,
 textarea:focus {
   outline: none;
   border-color: var(--color-accent-primary);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-  background: var(--color-bg-secondary);
+  box-shadow: 0 0 0 3px rgba(252, 76, 2, 0.1);
 }
 
 input[type="number"] {
@@ -173,11 +152,11 @@ textarea {
 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border: 2px solid var(--border-medium);
   border-radius: var(--radius-sm);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   cursor: pointer;
   position: relative;
   transition: all var(--transition-fast);
@@ -189,12 +168,12 @@ input[type="checkbox"]:hover {
 }
 
 input[type="checkbox"]:checked {
-  background: var(--color-success);
-  border-color: var(--color-success);
+  background: var(--color-accent-primary);
+  border-color: var(--color-accent-primary);
 }
 
 input[type="checkbox"]:checked::after {
-  content: '✓';
+  content: '\2713';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -228,18 +207,15 @@ input[type="checkbox"]:checked::after {
 
 .set-pill:hover {
   background: var(--color-surface-raised);
-  border-color: var(--border-strong);
+  border-color: var(--color-accent-primary);
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }
 
 .set-pill.done {
-  background: linear-gradient(135deg,
-    var(--color-success-bg) 0%,
-    rgba(16, 185, 129, 0.15) 100%);
+  background: var(--color-success-bg);
   border-color: var(--color-success);
   color: var(--color-success);
-  box-shadow: var(--shadow-glow-success);
 }
 
 /* RPE-based coloring */
@@ -265,22 +241,18 @@ input[type="checkbox"]:checked::after {
   border-radius: var(--radius-full);
   display: inline-block;
   margin-right: var(--space-sm);
-  box-shadow: 0 0 8px currentColor;
 }
 
 .status-dot.green {
   background: var(--color-success);
-  color: var(--color-success);
 }
 
 .status-dot.yellow {
   background: var(--color-warning);
-  color: var(--color-warning);
 }
 
 .status-dot.red {
   background: var(--color-danger);
-  color: var(--color-danger);
 }
 
 /* ============================================
@@ -408,7 +380,7 @@ input[type="checkbox"]:checked::after {
   border: 1px solid var(--border-medium);
   padding: var(--space-xs) var(--space-md);
   font-size: var(--text-sm);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   cursor: pointer;
   font-family: var(--font-mono);
   transition: all var(--transition-base);
@@ -416,7 +388,7 @@ input[type="checkbox"]:checked::after {
 
 .timer-btn:hover {
   border-color: var(--color-accent-primary);
-  background: var(--color-surface-raised);
+  background: var(--color-bg-tertiary);
 }
 
 .timer-btn:disabled {
@@ -426,9 +398,7 @@ input[type="checkbox"]:checked::after {
 }
 
 .timer-btn.done {
-  background: linear-gradient(135deg,
-    var(--color-success-bg) 0%,
-    rgba(16, 185, 129, 0.15) 100%);
+  background: var(--color-success-bg);
   border-color: var(--color-success);
   color: var(--color-success);
 }
@@ -446,7 +416,7 @@ input[type="checkbox"]:checked::after {
   border: 1px solid var(--border-medium);
   padding: var(--space-xs) var(--space-sm);
   font-size: var(--text-xs);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   cursor: pointer;
   font-family: var(--font-sans);
   font-weight: var(--font-weight-medium);
@@ -456,7 +426,7 @@ input[type="checkbox"]:checked::after {
 
 .timer-control-btn:hover {
   border-color: var(--color-accent-primary);
-  background: var(--color-surface-raised);
+  background: var(--color-bg-tertiary);
   transform: translateY(-1px);
 }
 
@@ -519,14 +489,14 @@ input[type="checkbox"]:checked::after {
   cursor: pointer;
   user-select: none;
   padding: var(--space-xs) var(--space-sm);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--border-medium);
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
 }
 
 .equipment-option:hover {
-  background: var(--color-surface-raised);
+  background: var(--color-bg-tertiary);
   border-color: var(--color-accent-primary);
 }
 
@@ -548,7 +518,7 @@ input[type="checkbox"]:checked::after {
   width: 5rem;
   padding: var(--space-xs) var(--space-sm);
   font-family: var(--font-mono);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--border-medium);
   border-radius: var(--radius-md);
   color: var(--color-text-primary);
@@ -558,7 +528,7 @@ input[type="checkbox"]:checked::after {
 .load-row input[type="number"]:focus {
   outline: none;
   border-color: var(--color-accent-primary);
-  box-shadow: 0 0 0 3px rgba(59, 158, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(252, 76, 2, 0.1);
 }
 
 /* ============================================
@@ -637,20 +607,6 @@ input[type="checkbox"]:checked::after {
   position: relative;
 }
 
-.progress-bar-fill::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.2) 50%,
-    transparent 100%);
-  animation: shimmer 2s infinite;
-}
-
 /* ============================================
    WORKOUT SELECTOR
    ============================================ */
@@ -674,7 +630,7 @@ input[type="checkbox"]:checked::after {
   flex: 1;
   max-width: 280px;
   padding: var(--space-sm) var(--space-md);
-  background: var(--color-bg-tertiary);
+  background: var(--color-bg-secondary);
   border: 1px solid var(--border-medium);
   border-radius: var(--radius-md);
   color: var(--color-text-primary);
@@ -686,40 +642,26 @@ input[type="checkbox"]:checked::after {
 }
 
 .workout-dropdown:hover {
-  background: var(--color-surface-raised);
   border-color: var(--color-accent-primary);
 }
 
 .workout-dropdown:focus {
   outline: none;
   border-color: var(--color-accent-primary);
-  box-shadow: 0 0 0 3px rgba(59, 158, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(252, 76, 2, 0.1);
 }
 
 .selector-badge {
   display: inline-flex;
   align-items: center;
   padding: var(--space-xs) var(--space-sm);
-  background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+  background: var(--color-accent-primary);
   border-radius: var(--radius-full);
   color: white;
   font-size: var(--text-xs);
   font-weight: var(--font-weight-semibold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  box-shadow: var(--shadow-glow);
-  animation: badge-pulse 2s ease-in-out infinite;
-}
-
-@keyframes badge-pulse {
-  0%, 100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.85;
-    transform: scale(1.02);
-  }
 }
 
 @media (max-width: 640px) {
@@ -744,7 +686,7 @@ input[type="checkbox"]:checked::after {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: var(--space-md) 0 var(--space-xs);
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 2px solid var(--color-accent-primary);
   margin-top: var(--space-lg);
 }
 
@@ -791,8 +733,8 @@ input[type="checkbox"]:checked::after {
   padding: var(--space-md) var(--space-lg);
   font-size: var(--text-base);
   font-weight: var(--font-weight-semibold);
-  background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
-  border: 1px solid var(--color-accent-primary);
+  background: var(--color-accent-primary);
+  border: none;
   color: white;
   border-radius: var(--radius-lg);
   cursor: pointer;
@@ -800,14 +742,14 @@ input[type="checkbox"]:checked::after {
 }
 
 .complete-workout-btn:hover {
+  background: var(--color-accent-primary-hover);
   transform: translateY(-2px);
   box-shadow: var(--shadow-glow);
 }
 
 .complete-workout-btn.done {
   background: var(--color-success);
-  border-color: var(--color-success);
-  opacity: 0.8;
+  opacity: 0.9;
   cursor: default;
   transform: none;
 }

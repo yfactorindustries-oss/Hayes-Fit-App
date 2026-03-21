@@ -1,6 +1,6 @@
 /**
- * Design Tokens - Tendon Dashboard v2.0
- * Foundation for modern design system
+ * Design Tokens - Hayes Fit
+ * Clean, bright theme inspired by Strava
  */
 
 :root {
@@ -8,58 +8,58 @@
      COLOR PALETTE
      ============================================ */
 
-  /* Base Colors - Lighter, Warmer Dark Mode */
-  --color-bg-primary: #1a2332;           /* Softer navy-gray background */
-  --color-bg-secondary: #212d3f;         /* Warmer card backgrounds */
-  --color-bg-tertiary: #2a3441;          /* Elevated elements with warmth */
+  /* Base Colors - Light Mode */
+  --color-bg-primary: #f7f7f7;              /* Light gray page background */
+  --color-bg-secondary: #ffffff;             /* White card backgrounds */
+  --color-bg-tertiary: #f0f0f0;             /* Input backgrounds, subtle elements */
 
   /* Surface Colors */
-  --color-surface-raised: #313d4f;       /* Interactive elements */
-  --color-surface-overlay: rgba(255, 255, 255, 0.08); /* More visible overlays */
+  --color-surface-raised: #e8e8e8;           /* Hover states */
+  --color-surface-overlay: rgba(0, 0, 0, 0.03); /* Subtle overlays */
 
   /* Text Hierarchy */
-  --color-text-primary: #ffffff;         /* Pure white headers */
-  --color-text-secondary: #e2e8f0;       /* Brighter body text */
-  --color-text-tertiary: #a8b5c7;        /* Warmer metadata */
-  --color-text-muted: #7a8699;           /* Disabled, subtle */
+  --color-text-primary: #1a1a1a;             /* Headers, primary text */
+  --color-text-secondary: #2d2d2d;           /* Body text */
+  --color-text-tertiary: #6b6b6b;            /* Metadata, labels */
+  --color-text-muted: #999999;               /* Disabled, subtle */
 
-  /* Accent Colors - Vibrant Blue-Teal Gradient */
-  --color-accent-primary: #3b9eff;       /* Brighter blue */
-  --color-accent-primary-hover: #2d8aeb;
-  --color-accent-secondary: #06b6d4;     /* Teal for contrast */
+  /* Accent Colors - Warm Orange (Strava-inspired) */
+  --color-accent-primary: #fc4c02;           /* Strava orange */
+  --color-accent-primary-hover: #e04400;
+  --color-accent-secondary: #ff6b2b;         /* Lighter orange for gradients */
 
-  /* Status Colors - Enhanced & Vibrant */
-  --color-success: #14f195;              /* Brighter green */
-  --color-success-bg: rgba(20, 241, 149, 0.12);
-  --color-success-border: rgba(20, 241, 149, 0.35);
+  /* Status Colors */
+  --color-success: #2ecc71;
+  --color-success-bg: rgba(46, 204, 113, 0.1);
+  --color-success-border: rgba(46, 204, 113, 0.3);
 
-  --color-warning: #fbbf24;              /* Warmer amber */
-  --color-warning-bg: rgba(251, 191, 36, 0.12);
-  --color-warning-border: rgba(251, 191, 36, 0.35);
+  --color-warning: #f39c12;
+  --color-warning-bg: rgba(243, 156, 18, 0.1);
+  --color-warning-border: rgba(243, 156, 18, 0.3);
 
-  --color-danger: #f87171;               /* Softer red */
-  --color-danger-bg: rgba(248, 113, 113, 0.12);
-  --color-danger-border: rgba(248, 113, 113, 0.35);
+  --color-danger: #e74c3c;
+  --color-danger-bg: rgba(231, 76, 60, 0.1);
+  --color-danger-border: rgba(231, 76, 60, 0.3);
 
-  --color-info: #22d3ee;                 /* Brighter cyan */
-  --color-info-bg: rgba(34, 211, 238, 0.12);
-  --color-info-border: rgba(34, 211, 238, 0.35);
+  --color-info: #3498db;
+  --color-info-bg: rgba(52, 152, 219, 0.1);
+  --color-info-border: rgba(52, 152, 219, 0.3);
 
-  /* Borders - More Contrast */
-  --border-subtle: #2d3748;
-  --border-medium: #3f4b5e;
-  --border-strong: #526076;
+  /* Borders */
+  --border-subtle: #e5e5e5;
+  --border-medium: #d0d0d0;
+  --border-strong: #b0b0b0;
 
   /* ============================================
      SHADOWS
      ============================================ */
 
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 20px rgba(59, 158, 255, 0.25);
-  --shadow-glow-success: 0 0 15px rgba(20, 241, 149, 0.25);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 16px rgba(252, 76, 2, 0.2);
+  --shadow-glow-success: 0 0 12px rgba(46, 204, 113, 0.2);
 
   /* ============================================
      SPACING SCALE
