@@ -161,9 +161,8 @@
             {
               "title": "Shoulders",
               "exercises": [
-                { "id": "d4_lat_raise", "label": "Lateral Raise", "sets": 4, "reps": "12-15", "notes": "Priority movement. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
-                { "id": "d4_cable_lat_raise", "label": "Cable Lateral Raise", "sets": 2, "reps": "15/side", "notes": "Constant tension. Rest 0:45", "restSeconds": 45, "equipmentChoice": true },
-                { "id": "d4_front_raise", "label": "DB Front Raise", "sets": 2, "reps": "12", "notes": "Alternate arms. Rest 1:00", "restSeconds": 60, "equipmentChoice": true }
+                { "id": "d4_lat_raise", "label": "Cable Lateral Raise", "sets": 4, "reps": "12-15", "notes": "Priority movement. Rest 1:00", "restSeconds": 60, "equipmentChoice": true },
+                { "id": "d4_cable_lat_raise", "label": "Cable Lateral Raise", "sets": 2, "reps": "15/side", "notes": "Constant tension. Rest 0:45", "restSeconds": 45, "equipmentChoice": true }
               ]
             },
             {
